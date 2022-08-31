@@ -1,0 +1,14 @@
+{:paths ["src/clj" "src/cljs" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        org.clojure/java.jdbc {:mvn/version "0.7.12"}
+        mysql/mysql-connector-java {:mvn/version "8.0.30"}
+        com.github.seancorfield/honeysql {:mvn/version "2.3.911"}
+        javax.servlet/servlet-api {:mvn/version "2.5"}
+        ring/ring {:mvn/version "1.9.0"}
+        metosin/reitit {:mvn/version "0.5.12"}
+        metosin/muuntaja {:mvn/version "0.6.8"}}
+ :aliases
+ {:cljs
+  {:extra-deps {thheller/shadow-cljs {:mvn/version "2.19.9"}
+                lilactown/helix {:mvn/version "0.1.8"}
+                funcool/promesa {:mvn/version "8.0.450"}}}}}
