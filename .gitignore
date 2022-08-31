@@ -13,8 +13,6 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 node_modules
-resources/assets
-.calva
 .lsp
 .shadow-cljs
 .clj-kondo

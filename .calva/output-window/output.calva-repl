@@ -1,0 +1,352 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/home/dan/.vscode/extensions/betterthantomorrow.calva-2.0.297/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+; Evaluating file: db.clj
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+nil
+clj꞉shorturl.db꞉> 
+"https://github.com/seancorfield/honeysql"
+clj꞉shorturl.db꞉> 
+; Evaluating file: core.clj
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
+nil
+clj꞉shorturl.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Syntax error compiling at (db.clj:48:3).
+; Unable to resolve symbol: get-url in this context
+clj꞉shorturl.db꞉> 
+nil
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+clj꞉shorturl.db꞉> 
+; Syntax error compiling at (db.clj:31:7).
+; Unable to resolve symbol: query in this context
+clj꞉shorturl.db꞉> 
+; Evaluating file: db.clj
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+nil
+clj꞉shorturl.db꞉> 
+"https://github.com/seancorfield/honeysql"
+clj꞉shorturl.db꞉> 
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉app.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns app.core
+  (:require [helix.core :refer [defnc $]]
+            [helix.hooks :as hooks]
+            [helix.dom :as d]
+            ["react-dom/client" :as rdom]
+            [react-dom/client :as rdom]))
+Invalid namespace declaration
+-- Syntax error -------------------
+
+  (... ... (:require
+            [helix.core :refer [defnc $]]
+            [helix.hooks :as hooks]
+            [helix.dom :as d]
+            ["react-dom/client" :as rdom]
+            [react-dom/client :as rdom]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+has extra input
+
+-- Relevant specs -------
+
+:shadow.build.ns-form/ns-form:
+  (clojure.spec.alpha/cat
+   :ns
+   '#{clojure.core/ns}
+   :name
+   clojure.core/simple-symbol?
+   :docstring
+   (clojure.spec.alpha/? clojure.core/string?)
+   :meta
+   (clojure.spec.alpha/? clojure.core/map?)
+   :clauses
+   :shadow.build.ns-form/ns-clauses)
+
+-------------------------
+Detected 1 error
+
+clj꞉app.core꞉> 
+nil
+clj꞉app.core꞉> 
+#js {:createRoot #object[Function], :hydrateRoot #object[Function]}
+clj꞉app.core꞉> 
+nil
+clj꞉app.core꞉> 
+; Syntax error compiling at (core.clj:40:13).
+; Unable to resolve symbol: start in this context
+clj꞉shorturl.core꞉> 
+; Evaluating file: core.clj
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/index
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+#'shorturl.core/index
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+nil
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+#'shorturl.core/index
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+; Execution error (IllegalArgumentException) at shorturl.core/index (REPL:14).
+; Cannot open <nil> as a Reader.
+clj꞉shorturl.core꞉> 
+clj꞉shorturl.core꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+nil
+clj꞉shorturl.core꞉> 
+"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Shorturl app</title>\n    <script src=\"assets/js/main.js\" defer></script>\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n"
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
+#'shorturl.core/app
+clj꞉shorturl.core꞉> 
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
+#'shorturl.core/app
+clj꞉shorturl.core꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+; Evaluating file: core.clj
+; WARNING: set already refers to: #'clojure.core/set in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/set
+; WARNING: into already refers to: #'clojure.core/into in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/into
+; WARNING: group-by already refers to: #'clojure.core/group-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/group-by
+; WARNING: update already refers to: #'clojure.core/update in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/update
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/partition-by
+; WARNING: for already refers to: #'clojure.core/for in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/for
+; WARNING: filter already refers to: #'clojure.core/filter in namespace: shorturl.db, being replaced by: #'honey.sql.helpers/filter
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:5:46
+ Use of undeclared Var app.core/response
+--------------------------------------------------------------------------------
+
+cljs꞉app.core꞉> 
+#object[app$core$app_render]
+cljs꞉app.core꞉> 
+#object[app$core$app_render]
+cljs꞉app.core꞉> 
+#'shorturl.core/create-redirect
+clj꞉shorturl.core꞉> 
+#'shorturl.core/app
+clj꞉shorturl.core꞉> 
+nil
+clj꞉shorturl.core꞉> 
+#'shorturl.core/server
+clj꞉shorturl.core꞉> 
